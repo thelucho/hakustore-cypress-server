@@ -11,11 +11,6 @@ $ npm install
 $ npm run start-auth
 ```
 
-Might need to run
-```
-npm audit fix
-```
-
 ## How to login/register?
 
 You can login/register by sending a POST request to
@@ -28,8 +23,8 @@ with the following data
 
 ```
 {
-  "email": "nilson@email.com",
-  "password":"nilson"
+  "email": "admin@email.com",
+  "password":"admin"
 }
 ```
 
